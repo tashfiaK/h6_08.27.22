@@ -1,0 +1,177 @@
+/*common start*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/*common end*/
+
+/*header start*/
+header {
+    background-color: rgba(18,27,42,255);
+    padding: 10px 0;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    /*border: 5px solid green;*/
+    overflow: hidden;
+}
+
+.logo {
+    width: 15%;
+    /*border: 1px solid red;*/
+    float: left;
+}
+
+.logo a {}
+
+.logo a img {
+    width: 100%;
+}
+
+.menu {
+    width: 70%;
+    /*border: 1px solid red;*/
+    float: right;
+}
+
+.menu ul {
+    /*float: right;*/
+    margin-top: 25px;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 5px 15px;
+    display: block;
+    color: white;
+    transition: .5s;
+}
+
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+
+.menu li a:hover {
+    color: rgba(0,120,189,255);
+}
+/*header end*/
+
+/*banner start*/
+.banner {
+    background-image: url(../blue/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    /*min-height: 300px;*/
+
+}
+
+.banner-content {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    width: 58%;
+}
+
+.banner-content p:first-child {
+    color: white;
+    font-size: 28px;
+}
+
+.banner-content h1 {
+    color: rgba(1,116,183,255);
+    font-size: 30px;
+}
+
+.banner-content p:nth-last-child(2) {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.banner-content button {
+    background-color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgba(107,107,107,255);
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.banner-content button span {
+    background-color: blue;
+    padding: 1px 4px;
+    border-radius: 50%;
+    color: white;
+    margin-left: 10px;
+}
+/*banner end*/
+
+/*service start*/
+.service {
+    background-color: rgba(18,27,44,255);
+    /*padding: 50px 0;*/
+}
+
+.wrapper {
+}
+
+.single {
+    width: 25%;
+    padding: 10px 20px;
+    float: left;
+    /*border-right: 1px solid white;*/
+}
+
+.title {
+    overflow: hidden;
+    /*border: 2px solid;*/
+}
+
+.icon {
+    float: left;
+    width: 25%;
+}
+
+.icon img {
+    width: 100%;
+}
+
+.icon-content {
+    float: right;
+    width: 65%;
+    margin-top: 7px;
+
+}
+
+.icon-content h1 {
+    color: white;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+.icon-content h2 {
+    color: rgba(1,117,186,255);
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+.content {
+}
+
+.content p {
+    color: white;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
